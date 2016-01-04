@@ -2,4 +2,4 @@ FROM ruby:slim
 
 RUN gem install cfoo
 
-ENTRYPOINT cfoo
+ENTRYPOINT ["/usr/local/bundle/bin/cfoo"]
